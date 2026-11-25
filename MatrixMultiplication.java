@@ -1,7 +1,7 @@
 public class MatrixMultiplication {
     public static void main(String[] args) {
         int[][] a = {
-            {1, 2, 3},
+            {10, 2, 3},
             {4, 5, 6}
         };
 
@@ -25,7 +25,7 @@ public class MatrixMultiplication {
             }
         }
 
-        System.out.println("=== Matrix Multiplication Result (Version 1) ===");
+        System.out.println("=== Matrix Multiplication Result (Version 2 - Auto-Triggered!) ===");
         for (int[] row : result) {
             for (int val : row) {
                 System.out.print(val + "\t");
